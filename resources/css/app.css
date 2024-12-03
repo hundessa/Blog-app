@@ -2,10 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root{
+    font-family: 'Lora', Sans-serif;
+    --btnbg: #F17228;
+}
+
+.btnbg {
+    background: #F17228;
+}
+.btnbg:hover {
+    background: #dd804a;
+}
+.border {
+    border-bottom: #e0e0e0 solid 1px;
+}
+.category-section {
+    color: #768088;
+}
+.category-section:hover {
+    color: black;
+}
+.post-section {
+    background: #F7F7F7;
+}
+.oxygen {
+    font-family:"Oxygen", sans-serif;
+    opacity: 70%;
+}
 .header-bg {
-    background-image: url("../../public/images/bg.jpg");
+    background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0)),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)),
+        url("../../public/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 500px;
 }

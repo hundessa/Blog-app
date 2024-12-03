@@ -1,8 +1,6 @@
+<x-app-layout />
 
 <x-header />
+<x-category-nav-bar />
+<x-posts-section />
 
-<x-app-layout>
-
-    <h4 class="text-blue-400">wel come to front end index</h4>
-
-</x-app-layout>
