@@ -40,3 +40,31 @@
     background-position: center;
     height: 500px;
 }
+
+.post-section-bg1 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)), 
+    url("../../public/images/post-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    height: 300px;
+    width: 500px;
+    transition: transform 0.5s ease;
+}
+ .post-section-bg1:hover {
+    transform: scale(1.1);
+}
+.post-section-bg2 {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)), 
+    url("../../public/images/post-2.jpg");
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    transition: transform 0.5s ease;
+}
+.post-section-bg2:hover {
+    transform: scale(1.1);
+}
