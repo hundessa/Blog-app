@@ -2,5 +2,5 @@
 
 <x-header />
 <x-category-nav-bar />
-<x-posts-section />
-
+<x-posts-section :posts="$posts"/>
+<x-footer />

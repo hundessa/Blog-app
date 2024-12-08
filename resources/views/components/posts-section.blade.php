@@ -12,7 +12,7 @@
                     <div class="absolute top-5 left-6">
                         <h1 class="text-white bg-purple-400 py-2 px-4 rounded-md">PHOTOGRAPHY</h1>
                     </div>
-                    <div class="absolute bottom-4 left-8 space-y-6">
+                    <div class="absolute bottom-4 left-8 space-y-6 w-full">
                         <div class="space-y-2">
                             <h1 class="text-white text-4xl">The Road Ahead</h1>
                             <p class="text-gray-400 relative left-1 text-xl">The road ahead might be paved - it might not be.</p>
@@ -34,12 +34,12 @@
                     <div class="relative rounded-lg overflow-hidden">
                         <div class="post-section-bg2"></div>
                         <div class="absolute top-5 left-6">
-                            <h1 class="text-white bg-amber-500 py-2 px-4 rounded-md">ADVENTURE</h1>
+                            <h1 class="text-white bg-gray-400 py-2 px-4 rounded-md">ADVENTURE</h1>
                         </div>
-                        <div class="absolute bottom-4 left-8 space-y-6">
+                        <div class="absolute bottom-4 left-8 space-y-6 w-full">
                             <div class="space-y-2">
-                                <h1 class="text-white text-4xl">The Road Ahead</h1>
-                                <p class="text-gray-400 relative left-1 text-xl">The road ahead might be paved - it might not be.</p>
+                                <h1 class="text-white text-4xl">From Top Down</h1>
+                                <p class="text-gray-400 relative left-1 text-xl">Once a year, go some place you've never before.</p>
                             </div>
                             <div class="flex">
                                 <div class="text-white flex"> <img src="{{ asset('images/bg.jpg')}}" alt="user profile picture" class="w-10 h-10 rounded-full">
@@ -56,3 +56,5 @@
         </div>
     </div>
 </div>
+
+<x-recent-posts :posts="$posts" />

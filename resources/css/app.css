@@ -5,11 +5,11 @@
 
 :root{
     font-family: 'Lora', Sans-serif;
-    --btnbg: #F17228;
 }
 
 .btnbg {
     background: #F17228;
+    transition: 0.5s ease-in-out;
 }
 .btnbg:hover {
     background: #dd804a;
@@ -67,4 +67,32 @@
 }
 .post-section-bg2:hover {
     transform: scale(1.1);
+}
+.shadow-class {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.09);
+    transition: 0.5s ease-in-out;
+}
+.shadow-class:hover {
+    box-shadow: -5px 5px 60px -5px rgba(0, 0, 0, 0.3);
+}
+.footer-bg {
+    background-image: linear-gradient(180deg, rgba(35, 47, 56, 0.47), rgba(35, 47, 56, 0.31) 99%), url("../../public/images/footerbg.jpg");
+    background-position: 0px 0px, 50% 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 350px; */
+}
+.footer-btn {
+    background-color: hsla(0, 0%, 100%, 0.28);
+    transition: 0.5s ease-in-out;
+}
+.footer-btn:hover {
+    background-color: #F17228;
+}
+.footer-input {
+    width: 500px;
+}
+.footer-nav {
+    background-color: rgba(35, 47, 56, 0.6);
+    border-top: 1px solid hsla(0, 0%, 100%, 0.12)
 }
