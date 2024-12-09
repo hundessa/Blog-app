@@ -20,3 +20,10 @@ Route::get('/', function () {
 });
 Route::get('/', [PostController::class, 'index']);
 
+Route::get('/sign-up', function () {
+    return view('components.frontend.user_-management.sign_-up');
+})->name("sign-up");
+
+Route::post('/sign-in', function () {
+    return view('components.frontend.user_-management.sign_-in');
+})->name("sign-in");
